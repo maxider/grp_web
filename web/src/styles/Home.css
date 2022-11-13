@@ -5,7 +5,7 @@
   box-shadow: 0px 25px 4rem rgba(0, 0, 0, 0.25);
 }
 
-.Header > * {
+.Header * {
   margin: 0;
 }
 
@@ -30,11 +30,11 @@
   /* outline: 1px solid #f00 !important; */
 }
 
-.Center > img {
+.Center img {
   height: 100%;
 }
 
-.Text > * {
+.Text * {
   margin: 0;
   padding: 0;
 }
@@ -45,13 +45,9 @@
   color: white;
 }
 
-.Text > p {
-  margin-bottom: 2rem;
-}
-
 .Text > button {
   display: flex;
-  padding: 1.5rem;
+  padding: 0.5rem;
   justify-content: center;
   align-items: center;
   background-color: #1e1e1e;
@@ -62,7 +58,37 @@
   font-size: 2rem;
 }
 
-.Bar {
+.CardsContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Card {
+  margin: 1rem;
+  width: 30rem;
+  height: 35rem;
+  box-shadow: 0 1rem 2rem 0 #1a1a1a;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 21rem;
+}
+
+.Card img {
+  margin-top: 17px;
+  width: 90px;
+  height: 90px;
+}
+
+.CardText {
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.Header .Bar {
   width: 100%;
   height: 6px;
   background-color: orange;

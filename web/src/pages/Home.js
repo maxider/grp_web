@@ -2,6 +2,9 @@ import "../styles/Home.css";
 import React from "react";
 import background from "../ressources/sandlaeufer.png";
 import wappen from "../ressources/bigLogo.png";
+import logo from "../ressources/fuchs.png";
+
+import Calender from "../Components/Calender";
 
 function Home() {
   return (
@@ -21,18 +24,27 @@ function Home() {
         <div className="Bar"></div>
       </div>
       <div className="Content">
-        <h1>Home</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
+        <div className="CardsContainer">
+          <div className="Card">
+            <img src={logo} alt="img"></img>
+            <div className="CardText">
+              <p>Oh hi mom. how are you</p>
+            </div>
+          </div>
+          <div className="Card">
+            <img src={logo} alt="img"></img>
+            <div className="CardText">
+              <p>Oh hi mom. how are you</p>
+            </div>
+          </div>
+          <div className="Card">
+            <img src={logo} alt="img"></img>
+            <div className="CardText">
+              <p>Oh hi mom. how are you</p>
+            </div>
+          </div>
+        </div>
+        <Calender />
       </div>
     </>
   );

@@ -21,17 +21,17 @@
   align-items: center;
 }
 
-.Logo > img {
+.Logo img {
   height: 100%;
 }
 
-ul {
+.Navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+.Navbar li {
   float: left;
   margin: 2rem;
 }

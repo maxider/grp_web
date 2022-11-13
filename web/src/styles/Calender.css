@@ -1,0 +1,9 @@
+.Calender {
+  display: flex;
+  flex-direction: column;
+}
+
+.CalenderItem {
+  display: flex;
+  align-items: center;
+}
